@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.doan1.mpec_restaurant.LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Username:"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColorHighlight="#7cff88"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="16dp"
+            android:text="Pass word:"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColorHighlight="#7cff88"
+            android:textSize="23dp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp">
+
+        <RadioButton
+            android:id="@+id/rbtn_customer"
+            android:text="Customer"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:gravity="right|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rbtn_staff"
+            android:text="Staff"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:gravity="right|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rbtn_manager"
+            android:text="Manager"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:gravity="right|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:text="Login"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

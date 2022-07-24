@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_dish"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/bundau" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/img_dish"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="name"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Menu"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

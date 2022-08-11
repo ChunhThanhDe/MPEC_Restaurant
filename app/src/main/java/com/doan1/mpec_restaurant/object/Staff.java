@@ -1,8 +1,13 @@
 package com.doan1.mpec_restaurant.object;
 
 
-public class Staff {
-    private int id;
+import com.google.gson.annotations.SerializedName;
+
+import java.io.Serializable;
+
+public class Staff implements Serializable {
+    private Integer id;
+    @SerializedName("username")
     private String account;
     private String password;
     private String name;
@@ -10,11 +15,21 @@ public class Staff {
     private String address;
     private String sex;
 
-    public int getId() {
+    public Staff(Integer id, String account, String password, String name, String dateOfBirth, String address, String sex) {
+        this.id = id;
+        this.account = account;
+        this.password = password;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.sex = sex;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -65,4 +80,5 @@ public class Staff {
     public void setSex(String sex) {
         this.sex = sex;
     }
+
 }

@@ -1,17 +1,23 @@
 package com.doan1.mpec_restaurant.object;
 
-import java.util.List;
 
-public class Category {
-    private int id;
+import java.io.Serializable;
+
+public class Category implements Serializable {
+
+    private Integer id;
     private String name;
-    private List Dish;
 
-    public int getId() {
+    public Category(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -23,11 +29,12 @@ public class Category {
         this.name = name;
     }
 
-    public List getDish() {
-        return Dish;
-    }
-
-    public void setDish(List dish) {
-        Dish = dish;
+    @Override
+    public String toString() {
+        return "Category{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
+
+

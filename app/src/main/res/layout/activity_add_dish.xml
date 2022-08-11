@@ -43,6 +43,20 @@
             android:inputType="text"
             android:textSize="16sp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="List Category"
+            android:textColor="@color/Green"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
         <ImageView
             android:id="@+id/img_from_gallery"
             android:layout_width="match_parent"
@@ -52,6 +66,7 @@
             android:id="@+id/btn_select_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_boder_gray"
             android:text="Add"
             android:textSize="16sp"
             android:layout_marginTop="20dp"/>
@@ -60,6 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Upload"
+            android:background="@drawable/bg_white_boder_gray"
             android:textSize="16sp"
             android:layout_marginTop="10dp"/>
 
@@ -136,6 +152,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:src="@drawable/ic_launcher_background" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Back"/>
 
     </LinearLayout>
 </ScrollView>

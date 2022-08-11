@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MPEC_Restaurant</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_history">Category</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_change_password">Change Password</string>
+    <string name="nav_account">Account</string>
+
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

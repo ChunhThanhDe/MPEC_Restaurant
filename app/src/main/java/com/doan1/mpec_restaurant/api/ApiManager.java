@@ -13,14 +13,13 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface ApiManager {
-//http://mpecrestaurant-env.eba-3fm4k7uh.us-west-2.elasticbeanstalk.com/category?fbclid=IwAR3Qe10XcrTozZmaphRP1TJteafMvEnh6UQOchgBfEp175PHd6qm-Pr0y4I
-
+//https://313134cc-3d5f-4dee-8fb0-e93ee23a9174.mock.pstmn.io/maneger
     Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-DD HH:mm:ss").create();
 
-    ApiManager API_MANAGER = new Retrofit.Builder().baseUrl("http://mpecrestaurant-env.eba-3fm4k7uh.us-west-2.elasticbeanstalk.com/")
+    ApiManager API_MANAGER = new Retrofit.Builder().baseUrl("https://313134cc-3d5f-4dee-8fb0-e93ee23a9174.mock.pstmn.io/")
             .addConverterFactory(GsonConverterFactory.create(gson)).build().create(ApiManager.class);
 
-    @GET("category")
+    @GET("maneger")
     Call<List<Manager>> getListManager();
 
 

@@ -1,10 +1,13 @@
 package com.doan1.mpec_restaurant.object;
 
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 
 public class Customer implements Serializable {
-    private int id;
+    private Integer id;
+    @SerializedName("username")
     private String account;
     private String password;
     private String name;
@@ -12,12 +15,25 @@ public class Customer implements Serializable {
     private String address;
     private String sex;
     private String email;
+    private int phoneNumber;
 
-    public int getId() {
+    public Customer(Integer id, String account, String password, String name, String dateOfBirth, String address, String sex, String email, int phoneNumber) {
+        this.id = id;
+        this.account = account;
+        this.password = password;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.sex = sex;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -75,5 +91,28 @@ public class Customer implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", account='" + account + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", address='" + address + '\'' +
+                ", sex='" + sex + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                '}';
     }
 }

@@ -6,25 +6,68 @@
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/drawable/arrow.xml" value="0.115" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/drawable/back.xml" value="0.115" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/drawable/baseline_search_24.xml" value="0.112" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/drawable/bg_white_boder_gray.xml" value="0.1235" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/drawable/botron_button.xml" value="0.112" />
-        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/a.xml" value="0.1" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/drawable/ic_home.xml" value="0.124" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/a.xml" value="0.22" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_a.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_add_cus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_add_dish.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_category.xml" value="0.21" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_dish_information.xml" value="0.25" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_forgot_password.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_logup.xml" value="0.22" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_manager_category.xml" value="0.203125" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_manager_customer.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_manager_menu.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_open.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_order.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_update_category.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_update_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/activity_update_dish.xml" value="0.21" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/add_dish.xml" value="0.22" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/change_info.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/change_password.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fogot_password.xml" value="0.25" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/forgot_password.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_change_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_choose.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_home.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_home_cus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_home_staff.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_my_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/fragment_order.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/home_cus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/home_staff.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/item_category.xml" value="0.25" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/item_customer.xml" value="0.25" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/item_dish.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/item_dish_menu.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/item_list.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/item_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/item_review.xml" value="0.22" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/layout_home.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/layout_navigation.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/login.xml" value="0.22" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/main_app.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/main_customer.xml" value="0.25" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/main_staff.xml" value="0.22" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/manager_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/menu.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/order.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/order_menu.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/order_send.xml" value="0.17255434782608695" />
-        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/register_an_account.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/layout/register_an_account.xml" value="0.1" />
         <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/menu/main_menu.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/Wind/AndroidStudioProjects/MPEC_Restaurant/app/src/main/res/menu/menu_layout_home.xml" value="0.25" />
       </map>
     </option>
   </component>

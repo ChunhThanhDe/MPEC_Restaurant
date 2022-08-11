@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OpenActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/pikalong" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="@string/app_name"
+        android:textColor="#727272"
+        android:textSize="24sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/tv_menu"
+        android:layout_width="216dp"
+        android:layout_height="324dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menu_background"
+        android:text="Menu Today"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btn_loginn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_white_boder_gray"
+                android:layout_weight="1"
+                android:text="Login" />
+
+            <Button
+                android:id="@+id/btn_logup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_white_boder_gray"
+
+                android:layout_weight="1"
+                android:text="Logup" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_forgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:text="Forgot Password ?"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

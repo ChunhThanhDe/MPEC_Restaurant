@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+        setContentView(R.layout.activity_login);
 
         edtUsername = findViewById(R.id.edt_username);
         edtPassword = findViewById(R.id.edt_password);
@@ -95,7 +95,11 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (isHasStaff) {
-            Intent intent = new Intent(LoginActivity.this, MainStaff.class);
+            Intent intent = new Intent(this, HomeActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putSerializable("object_user", mStaff);
+            intent.putExtra("user",1);
+            intent.putExtras(bundle);
             startActivity(intent);
         } else {
             Toast.makeText(LoginActivity.this, "Username or Password is invalid", Toast.LENGTH_SHORT).show();
@@ -104,7 +108,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void getListStaff() {
-        ApiStaff.API_STAFF.getListUser("IwAR3Qe10XcrTozZmaphRP1TJteafMvEnh6UQOchgBfEp175PHd6qm-Pr0y4I")
+        ApiStaff.apiStaff.getListStaff()
                 .enqueue(new Callback<List<Staff>>() {
                     @Override
                     public void onResponse(Call<List<Staff>> call, Response<List<Staff>> response) {
@@ -138,7 +142,11 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (isHasUser) {
-            Intent intent = new Intent(LoginActivity.this, MainCustomer.class);
+            Intent intent = new Intent(this, HomeActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putSerializable("object_user", mCustomer);
+            intent.putExtra("user",0);
+            intent.putExtras(bundle);
             startActivity(intent);
         } else {
             Toast.makeText(LoginActivity.this, "Username or Password is invalid", Toast.LENGTH_SHORT).show();
@@ -154,10 +162,7 @@ public class LoginActivity extends AppCompatActivity {
                         mListCustomer = response.body();
                         Log.e("List Customer", mListCustomer.size() + "");
                         Toast.makeText(LoginActivity.this, "call api fly", Toast.LENGTH_SHORT).show();
-
-
                     }
-
                     @Override
                     public void onFailure(Call<List<Customer>> call, Throwable t) {
                         Toast.makeText(LoginActivity.this, "call api errorrrrrr", Toast.LENGTH_SHORT).show();
@@ -183,7 +188,11 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (isHasUser = true) {
-            Intent intent = new Intent(LoginActivity.this, MainStaff.class);
+            Intent intent = new Intent(this, HomeActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putSerializable("object_user", mManager);
+            intent.putExtra("user",1);
+            intent.putExtras(bundle);
             startActivity(intent);
 
         } else {

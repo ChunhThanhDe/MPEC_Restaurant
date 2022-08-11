@@ -13,15 +13,15 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface ApiStaff {
-//http://mpecrestaurant-env.eba-3fm4k7uh.us-west-2.elasticbeanstalk.com/category?fbclid=IwAR3Qe10XcrTozZmaphRP1TJteafMvEnh6UQOchgBfEp175PHd6qm-Pr0y4I
+//http://mpecrestaurant-env.eba-3fm4k7uh.us-west-2.elasticbeanstalk.com/staff
 
     Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-DD HH:mm:ss").create();
 
-    ApiStaff API_STAFF = new Retrofit.Builder().baseUrl("http://mpecrestaurant-env.eba-3fm4k7uh.us-west-2.elasticbeanstalk.com/")
+    ApiStaff apiStaff = new Retrofit.Builder().baseUrl("http://mpecrestaurant-env.eba-3fm4k7uh.us-west-2.elasticbeanstalk.com/")
             .addConverterFactory(GsonConverterFactory.create(gson)).build().create(ApiStaff.class);
 
-    @GET("category")
-    Call<List<Staff>> getListUser(@Query("fbclid") String key);
+    @GET("staff")
+    Call<List<Staff>> getListStaff();
 
 
 }

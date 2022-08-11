@@ -12,26 +12,25 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="100dp"
             android:padding="16dp"
-            android:background="@drawable/welcome" />
+            android:background="@drawable/welcome_sign" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/app_name"
-            android:textStyle="bold|italic"
-            android:textSize="24sp"/>
+            android:text="__Menu today__"
+            android:textColor="@color/Green"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
 
 
         <androidx.recyclerview.widget.RecyclerView
-            android:layout_weight="6"
             android:id="@+id/rcv_dishs"
             android:layout_width="match_parent"
-            android:layout_height="0dp" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

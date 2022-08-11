@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.doan1.mpec_restaurant.">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_managercustomer"
+            android:layout_width="0dp"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="Customer Manager" />
+        <Button
+            android:id="@+id/btn_managerstaff"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="Staff Manager" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_managerbill"
+            android:layout_width="0dp"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="Bill Manager" />
+        <Button
+            android:id="@+id/btn_managertable"
+            android:layout_width="0dp"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="Table Manager" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_managerorder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="Order Manager" />
+        <Button
+            android:id="@+id/btn_managermenu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="Menu Manager"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_white_boder_gray"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="20dp"
+        android:text="Sign out"/>
+
+</LinearLayout>

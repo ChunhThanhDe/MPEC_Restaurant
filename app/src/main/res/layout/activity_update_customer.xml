@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".UpdateCustomerActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Update customer"
+        android:textColor="@color/Green"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColorHighlight="#7cff88"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_sex"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:hint="sex"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColorHighlight="#7cff88"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:hint="Phone"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColorHighlight="#7cff88"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_dateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of birth"
+        android:inputType="date"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColorHighlight="#7cff88"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColorHighlight="#7cff88"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColorHighlight="#7cff88"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edt_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColorHighlight="#7cff88"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:lines="1"
+        android:hint="Password"
+        android:maxLines="1"
+        android:textColorHighlight="#7cff88"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_update_customer"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_white_boder_gray"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Update Customer"
+        android:textSize="16sp" />
+
+</LinearLayout>

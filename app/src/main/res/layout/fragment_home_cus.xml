@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_menu"
+                android:layout_width="0dp"
+                android:background="@drawable/bg_white_boder_gray"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Menu" />
+
+            <Button
+                android:id="@+id/btn_order"
+                android:layout_width="0dp"
+                android:background="@drawable/bg_white_boder_gray"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Order" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_managerbill"
+                android:layout_width="0dp"
+                android:background="@drawable/bg_white_boder_gray"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Bill Manager" />
+
+            <Button
+                android:id="@+id/btn_table"
+                android:layout_width="0dp"
+                android:background="@drawable/bg_white_boder_gray"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Table" />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_signout"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_white_boder_gray"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0.5"
+            android:text="Sign out" />
+
+    </LinearLayout>
+
+</LinearLayout>
